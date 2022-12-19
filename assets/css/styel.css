@@ -14,10 +14,9 @@ h1 {
   color: black;
   background-color: brown;
 }
+
 .nav {
   background-color: black;
-}
-.nav {
   list-style: none;
   display: flex;
   flex-direction: row;
