@@ -4,92 +4,73 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/styel.css">
   <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-
-<body class="body" id="body">
-
+<body>
   <header>
-    
-  
+    <h1>Fun Portfolio</h1>
     <nav>
-      <h1>Fun Portfolio</h1>
-      <ul class="nav">
-        <li><a href="#travel">Travel</a></li>
-        <li><a href="#eat">Eat</a></li>
-        <li><a href="#art">Art</a></li>
-        <li><a href="#about">About</a></li>
+      <ul>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Links</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </nav>
-
   </header>
-  
-  <figure class="hero"></figure>
-
   <main>
 
-    <article>
+    <section>
+      <h2>Work</h2>
+      <div class="work">
+        <img class="bigimg" src="./assets/images/placeholder.jpeg" alt="placeholder">
+        <img src="./assets/images/placeholder.jpeg" alt="placeholder">
+        <img src="./assets/images/placeholder.jpeg" alt="placeholder">
+        <img src="./assets/images/placeholder.jpeg" alt="placeholder">
+        <img src="./assets/images/placeholder.jpeg" alt="placeholder">
+      </div>
+    </section>
 
-      <section class="first">
-        <img src="https://via.placeholder.com/350" alt="place holder for travel">
-<!--         
-        <h2>Places to Travel</h2>
-        <p>This is a set a places the creater of the page would like to travel. Click the various links bellow to see the wikipedia pages of the places.</p>
+    <section>
+      <h2>Links</h2>
+      <div class="links">
+        <h3><a href="https://www.github.com">github</a></h3>
+        <h3><a href="https://www.spotify.com">spotify</a></h3>
+        <h3><a href="https://www.twitter.com">twitter</a></h3>
+        <h3><a href="https://www.wikipedia.org">wikipedia</a></h3>
+      </div>
+    </section>
+
+    <section>
+      <h2>About</h2>
+      <div class="about">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque nesciunt temporibus consequatur? Magnam, quo? Maiores ipsa harum, id, obcaecati molestias non saepe quisquam itaque veritatis minima eligendi, cumque praesentium illum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eveniet rerum repudiandae perspiciatis, itaque possimus eligendi assumenda nostrum sint similique soluta corporis odio beatae, blanditiis debitis nam illo cum perferendis.</p>
+      </div>
+    </section>
+    <section>
+      <h2>Contact</h2>
+      <div class="contacts">
+        <div class="container">
+          <form action="action_page.php">
         
-        <nav>
-          <ul class="nav2">
-            <li><a href="www.google.com">Japan</a></li>
-            <li><a href="www.google.com">Peru</a></li>
-            <li><a href="www.google.com">Ireland</a></li>
-          </ul>
-        </nav>       -->
-
-      </section>
-
-      <section class="other">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
         
-        <img class="bpic" src="https://via.placeholder.com/150" alt="Place holder for food">
-
-        <!-- <h2>Eat</h2> -->
-        <!-- <p>Diffrent types of food the creator likes to make from around the world. Click the links below to be brought to he wikipedia pages of the food.</p>
-
-        <nav>
-          <ul class="nav2">
-            <li><a href="www.google.com">Mexican Food</a></li>
-            <li><a href="www.google.com">Indian Food</a></li>
-            <li><a href="https://www.google.com">Italian Food</a></li>
-          </ul>
-        </nav> -->
-
-      </section>
-
-      <section id="art" class="art">
-
-        <img src="https://via.placeholder.com/150" alt="Place Holder for art">
-        <!-- <h2>Art Work</h2>
-
-        <p>The link here is a link to an artist liked by the creator of this web applicaation.</p>
-        <nav>
-          <ul class="nav2">
-            <li><a href="www.google.com">Enjoyable artist</a></li>
-          </ul>
-        </nav> -->
-
-      </section>
-
-      <section id="about" class="about">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
         
-        <img src="https://via.placeholder.com/150" alt="Place holder for photo">
-        <!-- <h2>A little about the creator</h2>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example.email@stuff.com">
 
-        <p>This is a little section about the creator.</p>
-      </section> -->
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
 
-    </article>
-    
+      </div>
+    </section>
   </main>
-
 </body>
-
 </html>
