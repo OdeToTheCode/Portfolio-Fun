@@ -50,12 +50,16 @@ section {
   justify-content: flex-start;
 }
 
-div.work{
+div.work a{
   display: flex;
   flex-wrap: wrap;
 }
 
-section div.work img {
+section div.work a img.smoll {
+  width: 49%;
+  padding: 1%;
+}
+.smoll {
   width: 49%;
   padding: 1%;
 }
