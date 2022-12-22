@@ -8,7 +8,7 @@ This website tested our skills to work our learned html skills and css skills. F
 
 This website is an outline ready to be filled with things for a portfolio. The website is ready to be replaced with actual finished products of a web develper.
 
-![click here to view](./assets/images/Screenshot%202022-12-21%20at%209.19.25%20PM.png)
+![Screenshot of website](./assets/images/Screenshot%202022-12-21%20at%209.19.25%20PM.png)
 
 
 ## Usage
